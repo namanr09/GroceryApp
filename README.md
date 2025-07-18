@@ -42,10 +42,11 @@ A full-stack, real-time grocery delivery app built using **Fastify**, **MongoDB*
 │       ├── config/
 │       └── app.js (Fastify server setup)
 ├── client/
-│   ├── components/
-│   ├── screens/
-│   ├── contexts/
-│   └── App.js (React Native entry)
+|     ├── src/ 
+│       ├── components/
+│       ├── screens/
+│       ├── contexts/
+│       └── App.js (React Native entry)
 └── README.md
 ```
 
