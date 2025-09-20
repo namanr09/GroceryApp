@@ -6,6 +6,7 @@ import { categories, products } from "./seedData.js";
 
 async function seedDatabase() {
     try{
+        
         await mongoose.connect(process.env.MONGO_URI);
         await Product.deleteMany({});
         await Category.deleteMany({});
